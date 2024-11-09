@@ -7,7 +7,7 @@ import path from 'path';
 import fs from 'fs';
 
 const app = express();
-const port = 4000;
+const port = 3000;
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
